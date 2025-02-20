@@ -3,7 +3,7 @@ const http = require('http');
 const { program } = require('commander');
 
 // const SERVER_URL = 'ws://localhost:3000'; // Change to your server's public URL later
-const SERVER_URL = 'wss://my-ngrok-hniyy0w2m-vikranths-projects-a59806dd.vercel.app'; // Change to your server's public URL later
+const SERVER_URL = 'wss://mygrok.onrender.com'; // Change to your server's public URL later
 
 // Define the CLI command
 program

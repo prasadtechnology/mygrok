@@ -43,8 +43,8 @@ app.get('/:tunnelId', (req, res) => {
     });
 });
 
-module.exports = app; // Export for Vercel
+// module.exports = app; // Export for Vercel
 
-// server.listen(3000, ()=>{
-//     console.log(" server listening on 3000");
-// })
+server.listen(3000, ()=>{
+    console.log(" server listening on 3000");
+})
